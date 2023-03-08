@@ -9,3 +9,8 @@ This is an example file for reflection in IBI1_2019-20.
 During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
 
 I have also learnt to write careful instructions when communicating online!
+
+Looking at the screen for more than 1.5 hours is hurting my eyes.
+the push part is challenging, for we have to use a token rather than the code, but no one telled us.
+the way to get out the vim is not right too.
+I finally used git revert --no-commit HEAD
