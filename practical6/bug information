@@ -1,0 +1,95 @@
+I was rejected again and again, for the remote contains work that you do not have locally, even after I fetched the remote again and again
+so I cannot use the normal way to upload my file
+I don't know why
+
+(base) elaine@elainedeMacBook-Pro practical6 % git log --oneline
+9062b2f (HEAD -> master) create cost list and bar chart
+d4929ad print the number of prople who like Crime movies
+4dbb646 debug,when determing the labels,should be labels=(,)
+44a8f2d ceate the dictionary and pie chart of the movie genre
+(base) elaine@elainedeMacBook-Pro practical6 % git push https://github.com/KirschtariaW/IBI1_2022-24
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+
+(base) elaine@elainedeMacBook-Pro practical6 % git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+To https://github.com/KirschtariaW/IBI1_2022-24
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/KirschtariaW/IBI1_2022-24'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) elaine@elainedeMacBook-Pro practical6 % git fetch https://github.com/KirschtariaW/IBI1_2022-24/tree/master
+fatal: repository 'https://github.com/KirschtariaW/IBI1_2022-24/tree/master/' not found
+(base) elaine@elainedeMacBook-Pro practical6 % git fetch https://github.com/KirschtariaW/IBI1_2022-24
+remote: Enumerating objects: 146, done.
+remote: Total 146 (delta 0), reused 0 (delta 0), pack-reused 146
+Receiving objects: 100% (146/146), 1.31 MiB | 2.05 MiB/s, done.
+Resolving deltas: 100% (31/31), done.
+From https://github.com/KirschtariaW/IBI1_2022-24
+ * branch            HEAD       -> FETCH_HEAD
+(base) elaine@elainedeMacBook-Pro practical6 % git push https://github.com/KirschtariaW/IBI1_2022-24                      
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+
+(base) elaine@elainedeMacBook-Pro practical6 % git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+To https://github.com/KirschtariaW/IBI1_2022-24
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KirschtariaW/IBI1_2022-24'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) elaine@elainedeMacBook-Pro practical6 % git fetch https://github.com/KirschtariaW/IBI1_2022-24
+From https://github.com/KirschtariaW/IBI1_2022-24
+ * branch            HEAD       -> FETCH_HEAD
+(base) elaine@elainedeMacBook-Pro practical6 % git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+fatal: unable to access 'https://github.com/KirschtariaW/IBI1_2022-24/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 
+(base) elaine@elainedeMacBook-Pro practical6 % git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+To https://github.com/KirschtariaW/IBI1_2022-24
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KirschtariaW/IBI1_2022-24'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) elaine@elainedeMacBook-Pro practical6 % git fetch https://github.com/KirschtariaW/IBI1_2022-24                     
+From https://github.com/KirschtariaW/IBI1_2022-24
+ * branch            HEAD       -> FETCH_HEAD
+(base) elaine@elainedeMacBook-Pro practical6 % git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+To https://github.com/KirschtariaW/IBI1_2022-24
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KirschtariaW/IBI1_2022-24'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) elaine@elainedeMacBook-Pro practical6 % git pull https://github.com/KirschtariaW/IBI1_2022-24
+From https://github.com/KirschtariaW/IBI1_2022-24
+ * branch            HEAD       -> FETCH_HEAD
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: refusing to merge unrelated histories
+(base) elaine@elainedeMacBook-Pro practical6 % git push --set-upstream https://github.com/KirschtariaW/IBI1_2022-24 master
+To https://github.com/KirschtariaW/IBI1_2022-24
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KirschtariaW/IBI1_2022-24'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

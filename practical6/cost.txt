@@ -1,0 +1,26 @@
+#store the list of costs
+costs=[1,8,15,7,5,14,43,40]
+
+#print the list of cost 
+print(costs)
+
+#draw a bar plot displaying this sorted distribution of marks
+import numpy as np
+import matplotlib.pyplot as plt
+
+N=8 #the number of bars
+costs=costs #determine the y value of the bars. costs are already determined 
+		# below. just for the format.
+ind=np.arange(N) #the x locations for the groups
+width=0.4 #the width of the bars: can also be len(x) sequence
+p1=plt.bar(ind,costs,width) #(the x location of the bars, the hight, the 
+				#width of the bars)
+plt.ylabel('costs') #the label of y axis
+plt.title('costs by group') #the title of the whole graph
+plt.xticks(ind,('Los Angeles 1984', 'Seoul 1988', 'Barcelona 1992',
+ 'Atlanta 1996', 'Sydney 2000' ,'Athens 2003', 'Beijing 2008', 'London 2012'))
+plt.yticks(np.arange(0,51,5)) #np.arange(y start from,x end at, distance 
+				#between 2 marks )
+
+plt.show
+
