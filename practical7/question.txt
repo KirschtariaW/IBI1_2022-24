@@ -1,0 +1,11 @@
+new question: Are there places in the World where there have been more than 10,000 total infections (as of 31 March)? If so, where are they?
+the line number :126
+
+#find the rows that have more than 10000 deaths on March 31
+places = new_data.loc[new_data['new_cases'] > 10000, 'location']
+##result:
+##7717    United States
+##7971            World
+##Name: location, dtype: object
+so, the united states has new cases more than 10000
+and the world, for the world is the sum of all the countries
