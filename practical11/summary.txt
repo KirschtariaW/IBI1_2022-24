@@ -1,0 +1,2 @@
+I didn't get the result
+so cannot know the alignment score or the percentage of identical amino acid
