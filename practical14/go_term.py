@@ -1,3 +1,10 @@
+# I have to say that this piece of code was not my work
+# it's from others' help
+# as for myself, I don't quit understand it 
+# please don't give me score for this code, or it will be academic misconduct
+# it is just here to be learned
+
+
 # import the required libraries, xml.dom.minidom for parsing XML and xlsxwriter for creating Excel files.
 import xml.dom.minidom
 import xlsxwriter
